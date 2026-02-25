@@ -4,7 +4,6 @@ const execa = require('execa');
 const fs = require('fs-extra');
 const defaulProcessGroupName = 'appchef-agent';
 
-global.verbose = true;
 const args = require('yargs')
     .command('start-agents [ecosystem] [options]', 'Starts agents', yargs => {
         yargs.positional('ecosystem', {

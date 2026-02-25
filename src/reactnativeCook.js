@@ -1,3 +1,6 @@
+//For verbosed logging in reactnative cli
+global.verbose = true;
+
 const command = require('@wavemaker/wm-reactnative-cli/src/command');
 const logger = require('@wavemaker/wm-reactnative-cli/src/logger');
 const semver = require('semver');
